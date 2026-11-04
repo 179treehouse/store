@@ -325,12 +325,12 @@ local function get_cached_font(name, weight, style, filename, url)
 	return Register_Font(name, weight, style, { Id = filename, Font = content })
 end
 
-local ProggyTiny = get_cached_font("Tahoma", 200, "Normal", "Tahoma.ttf", "https://github.com/179treehouse/store/raw/refs/heads/main/fonts/tahomabold.ttf")
-local Tahoma11Bold = get_cached_font("Tahoma11PixelBold", 700, "Normal", "Tahoma11PixelBold.ttf", "https://github.com/179treehouse/store/raw/refs/heads/main/fonts/Tahoma11PixelBold.ttf")
-local Tahoma11 = get_cached_font("Tahoma11Pixel", 400, "normal", "Tahoma11Pixel.ttf", "https://github.com/179treehouse/store/raw/refs/heads/main/fonts/Tahoma11Pixel.ttf")
-local Tahoma12 = get_cached_font("Tahoma12Pixel", 400, "normal", "Tahoma12Pixel.ttf", "https://github.com/179treehouse/store/raw/refs/heads/main/fonts/Tahoma12Pixel.ttf")
-local Tahoma12Bold = get_cached_font("Tahoma12PixelBold", 700, "Normal", "Tahoma12PixelBold.ttf", "https://github.com/179treehouse/store/raw/refs/heads/main/fonts/Tahoma12PixelBold.ttf")
-local SmallestPixel = get_cached_font("SmallestPixel", 400, "Normal", "SmallestPixel.ttf", "https://github.com/179treehouse/store/raw/refs/heads/main/fonts/smallest_pixel-7.ttf")
+local ProggyTiny = get_cached_font("Tahoma", 200, "Normal", "Tahoma.ttf", "https://github.com/179treehouse/store/raw/refs/heads/main/fonts/priv9/tahomabold.ttf")
+local Tahoma11Bold = get_cached_font("Tahoma11PixelBold", 700, "Normal", "Tahoma11PixelBold.ttf", "https://github.com/179treehouse/store/raw/refs/heads/main/fonts/priv9/Tahoma11PixelBold.ttf")
+local Tahoma11 = get_cached_font("Tahoma11Pixel", 400, "normal", "Tahoma11Pixel.ttf", "https://github.com/179treehouse/store/raw/refs/heads/main/fonts/priv9/Tahoma11Pixel.ttf")
+local Tahoma12 = get_cached_font("Tahoma12Pixel", 400, "normal", "Tahoma12Pixel.ttf", "https://github.com/179treehouse/store/raw/refs/heads/main/fonts/priv9/Tahoma12Pixel.ttf")
+local Tahoma12Bold = get_cached_font("Tahoma12PixelBold", 700, "Normal", "Tahoma12PixelBold.ttf", "https://github.com/179treehouse/store/raw/refs/heads/main/fonts/priv9/Tahoma12PixelBold.ttf")
+local SmallestPixel = get_cached_font("SmallestPixel", 400, "Normal", "SmallestPixel.ttf", "https://github.com/179treehouse/store/raw/refs/heads/main/fonts/priv9/smallest_pixel-7.ttf")
 
 fonts = {
 ["TahomaBold"] = Font.new(ProggyTiny, Enum.FontWeight.Regular, Enum.FontStyle.Normal);
